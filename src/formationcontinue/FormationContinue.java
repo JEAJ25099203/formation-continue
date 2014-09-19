@@ -23,7 +23,9 @@ public class FormationContinue {
     public static void main(String[] args) throws FileNotFoundException, IOException  {
         // TODO code application logic here
         Usager user = new Usager(JSONObject.fromObject(FileReader.loadFileIntoString("json/declaration.json", "UTF-8")));
-        System.out.println(user);
+        user.validation();
+        System.out.println(user.getComplet());
+        System.out.println(user.getErreurs());
     
     }
     
