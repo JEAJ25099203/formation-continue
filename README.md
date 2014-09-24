@@ -1,7 +1,5 @@
 Projet de session INF2015 - A2014 - EQUIPE21
 
-========
-
 Bruno Dubois
 Code permanent : DUBB31128009
 Github : millemilles
