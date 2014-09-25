@@ -7,7 +7,6 @@ package formationcontinue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 /**
@@ -32,7 +31,7 @@ public class Usager {
     private String noPermis, cycle;
     private int heuresPrecedent, heuresTotal;
     private boolean complet;
-    ArrayList<String> erreurs = new ArrayList<String>();
+    ArrayList<String> erreurs = new ArrayList<>();
     private ArrayList<Activite> activites = new ArrayList<>();
 
     ////
