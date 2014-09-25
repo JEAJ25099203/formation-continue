@@ -11,7 +11,7 @@ import net.sf.json.JSONObject;
 
 /**
  *
- * @author Bruno
+ * @author équipe 21
  */
 public class Usager {
 
@@ -20,7 +20,6 @@ public class Usager {
     private final String DATE_MAX = "2014-04-02";
     private final String[] CATEGORIES_RECONNUES = {"cours", "atelier", "séminaire", "colloque", "conférence", "lecture dirigée", "présentation", "groupe de discussion", "projet de recherche", "rédaction professionnelle"};
     private final int CYCLE_PRECEDENT_MAX = 7;
-    private final int COURS_HEURES_MIN = 17;
     private final String[] COURS_RECONNUS = {"cours", "atelier", "séminaire", "colloque", "conférence", "lecture dirigée"};
     private final int PRESENTATION_HEURES_MAX = 23;
     private final int GROUPE_HEURES_MAX = 17;
@@ -224,7 +223,6 @@ public class Usager {
         return heuresTotal >= TOTAL_HEURES_MIN;
     }
 
-    @Override
     public String toString() {
         return noPermis + "\n" + cycle + "\n" + heuresPrecedent + "\n" + activites;
     }
