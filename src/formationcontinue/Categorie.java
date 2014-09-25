@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package formationcontinue;
 
 import java.util.ArrayList;
@@ -17,21 +16,18 @@ import net.sf.json.JSONArray;
  */
 public class Categorie {
 
-	private ArrayList<String> categorie;
-	private int min;
-	private int max;
-	private String msg;
+    private ArrayList<String> categorie;
+    private int min;
+    private int max;
+    private String msg;
 
-	public Categorie(String[] categorie, int min, int max, String msg){
-            this.categorie.addAll(Arrays.asList(categorie));
-            this.min = min;
-            this.max = max;
-            this.msg = msg;
-	}
+    public Categorie(String[] categorie, int min, int max, String msg) {
+        this.categorie.addAll(Arrays.asList(categorie));
+        this.min = min;
+        this.max = max;
+        this.msg = msg;
+    }
 
-	public Categorie(JSONObject json){
-		
-	}
-
-
+    public Categorie(JSONObject json) {
+    }
 }
